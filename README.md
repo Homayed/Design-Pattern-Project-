@@ -1,4 +1,4 @@
-# Design-Pattern-Project-
+# Design-Pattern-Project-154439
 
 Composite Design Pattern: Composite pattern is a partitioning design pattern and describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to “compose” objects into tree structures to represent part-whole hierarchies. In my example of composite design pattern, there are two levels of hierarchy. Firstly village is global composite object. And village consists of: House, Tree and Water_source . At the second level of hierarchy, Each of House, Tree and Water_source are composed of leaf objects. • House is composed of square, rectangle and triangle. • Tree is a composite of line, rectangle and circle. • Water_source is a composite object of circle and buble. At the lowest level of hierarchy or at the leaf level all the shapes or components are independent to any other object. The main advantage of composite design pattern is that-
 
